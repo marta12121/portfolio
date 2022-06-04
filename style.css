@@ -17,13 +17,19 @@
 
 .verticalline {
     border-left: 2px solid #2a2a2a;
-    height: 90vh;
+    height: 80vh;
 }
 
 .social:hover {
     position: relative;
     bottom: 5px;
     transition: 2s ease-in-out .5s;
+}
+
+.navbar-brand::first-letter {
+    color: #2a2a2a;
+    font-weight: bolder;
+    font-style: italic;
 }
 
 @media screen and (max-width: 991px) {
