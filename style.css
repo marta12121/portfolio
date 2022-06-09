@@ -5,7 +5,7 @@
 }
 
 .avatar {
-    width: 350px;
+    width: 320px;
     height: 450px;
     border: 2px solid #141414;
 }
@@ -32,9 +32,13 @@
     font-style: italic;
 }
 
+.card {
+    border-radius: 15%;
+}
+
 @media screen and (max-width: 991px) {
     .avatar {
-        width: 250px;
+        width: 220px;
         height: 320px;
     }
 }
