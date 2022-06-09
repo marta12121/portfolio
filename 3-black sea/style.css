@@ -1,0 +1,276 @@
+:root {
+    --menu-bg-color: #49a7a1aa;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    box-sizing: border-box;
+}
+
+.main {
+    background-color: var(--menu-bg-color);
+    height: 13vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 60px;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    width: 15vw;
+    height: 40px;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 40px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.img-box {
+    height: 100vh;
+    width: 100%;
+    background-image: url('Layer 1.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.img-box-button {
+    background-color: transparent;
+    border: 1px solid white;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.black-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: black;
+    padding-top: 70px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+h2 {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.other-blocks {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 40px);
+    justify-content: center;
+    align-items: center;
+    gap: 10vh;
+}
+
+.other-blocks h2 {
+    text-align: center;
+}
+
+.block-1 {
+    padding: 70px;
+    text-align: center;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    gap: 15px;
+    padding: 50px;
+}
+
+.img-circ {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-image: url("photo.jpeg");
+    background-size: cover;
+    border: 5px solid white;
+}
+
+.block-2-col,
+.block-3-col,
+.block-4-col {
+    background-color: var(--menu-bg-color);
+}
+
+.block-5 {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    line-height: 80px;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 100px;
+    gap: 2px;
+}
+
+.social>img {
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+}
+
+@media only screen and (min-width: 566px) and (max-width: 900px) {
+    .main {
+        gap: 30px;
+        height: 10vh;
+    }
+    a {
+        font-size: 15px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    .img-box-button {
+        font-size: 12px;
+        width: 100px;
+        height: 25px;
+        line-height: 1.5em;
+    }
+    .block-1 {
+        width: 100vw;
+    }
+    .cards {
+        display: flex;
+        justify-content: space-between;
+    }
+    .cards img {
+        width: 40px;
+        height: 40px;
+    }
+    .other-blocks {
+        width: 100%;
+    }
+    .block p {
+        overflow: scroll;
+        font-size: small;
+        text-align: justify;
+    }
+    .block {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        padding: 30px;
+    }
+}
+
+@media only screen and (min-width: 401px) and (max-width: 565px) {
+    .main {
+        gap: 0.5px;
+        height: 10vh;
+    }
+    a {
+        font-size: 10px;
+    }
+    h1 {
+        font-size: 25px;
+    }
+    .block-1 {
+        width: 100vw;
+    }
+    .other-blocks {
+        width: 90vw;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 400px) {
+    .main {
+        gap: 5px;
+        height: 7vh;
+    }
+    a {
+        font-size: 8px;
+    }
+    h1 {
+        font-size: 18px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    .img-box {
+        height: 50vh;
+    }
+    .img-box-button {
+        font-size: 10px;
+        width: 70px;
+        height: 20px;
+        line-height: 1.6em;
+    }
+    .block-1 {
+        width: 100vw;
+        padding: 30px;
+    }
+    .block-1 p {
+        font-size: xx-small;
+    }
+    .cards {
+        display: flex;
+        justify-content: space-around;
+    }
+    .cards img {
+        width: 20px;
+        height: 20px;
+    }
+    .other-blocks {
+        width: 90%;
+    }
+    .block p {
+        overflow: scroll;
+        font-size: small;
+        text-align: justify;
+    }
+    .block {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        padding: 30px;
+    }
+    .black-block {
+        padding: 1%;
+    }
+}
