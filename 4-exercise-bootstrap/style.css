@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.tm-nav-item-link {
+    text-decoration: none;
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: lighter;
+    color: black;
+}
+
+.first-navbar {
+    box-shadow: 1px 1px 10px 5px rgba(158, 153, 158, 0.623);
+}
+
+.tm-content-header {
+    background: linear-gradient(to bottom, rgba(222, 184, 135, 0.9), rgba(135, 206, 250, 0.9));
+    box-shadow: 1px 1px 15px 5px rgb(82, 80, 80);
+}
+
+.tm-banner {
+    background-color: aliceblue;
+    width: calc(100% - 70px);
+}
+
+.tm-banner-text {
+    font-size: large;
+    word-spacing: 0.8em;
+    letter-spacing: 0.5em;
+    text-shadow: 1px 9px 1.5px rgba(118, 205, 215, 0.7);
+    animation-duration: 3s;
+    animation-name: mymove;
+}
+
+@keyframes mymove {
+    from {
+        transform: rotate(45deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
+}
+
+.tm-section-title {
+    font-weight: lighter;
+    font-style: normal;
+    text-align: center;
+    color: lightskyblue;
+}
+
+.tm-title {
+    font-weight: light;
+    font-style: normal;
+    text-align: center;
+    color: lightskyblue;
+}
+
+.box-img {
+    width: 100%;
+}
+
+.section-bg {
+    background-color: lightskyblue;
+    color: white;
+}
+
+.for_hover:hover {
+    background-color: lightskyblue;
+}
+
+.for_hover:hover h2 {
+    color: white;
+}
