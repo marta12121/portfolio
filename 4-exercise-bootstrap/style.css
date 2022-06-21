@@ -73,3 +73,43 @@
 .for_hover:hover h2 {
     color: white;
 }
+
+.my_form {
+    outline: none !important;
+    border: none;
+    border-bottom: 1px solid lightskyblue;
+    border-radius: 0%;
+}
+
+.my_area {
+    border-radius: 0%;
+    outline: none !important;
+}
+
+.my_form::placeholder,
+.my_area::placeholder,
+.my_text {
+    font-weight: lighter;
+}
+
+.my_form:focus,
+.my_area:focus,
+.my-btn:hover {
+    background-color: lightskyblue;
+    outline: none !important;
+}
+
+.my_form:focus::placeholder,
+.my_area:focus::placeholder {
+    color: white;
+}
+
+.my-btn {
+    width: 130px;
+    height: 45px;
+    border-radius: 0;
+    border: 2px solid lightskyblue;
+    background: none;
+    color: lightskyblue;
+    float: right;
+}
