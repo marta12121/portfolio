@@ -1,0 +1,89 @@
+.header-wrap-1 {
+    width: 100%;
+    height: 100vh;
+    background-image: url("img/m-h-day.jpg");
+    background-size: cover;
+    border-bottom-right-radius: 400px;
+    padding: 20px;
+}
+
+.landing-logo p span {
+    font-size: x-small;
+    font-weight: normal;
+}
+
+.landing-logo p {
+    line-height: 0.7em;
+    font-size: large;
+    font-weight: bold;
+}
+
+.highlight {
+    text-decoration: none;
+    background-color: #0ca1c8;
+    background-size: auto;
+    font-family: "Source Sans Pro", sans-serif;
+    color: #282b39;
+}
+
+.header_heading {
+    font-family: "Source Sans Pro", sans-serif;
+    color: #282b39;
+    line-height: 1.3em;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+p.header_text {
+    font-family: "Source Sans Pro", sans-serif;
+    color: #3c3e47;
+    font-size: 13px;
+    font-weight: lighter;
+    line-height: 1.8em;
+    text-align: left;
+}
+
+.header_button,
+.section_banner_button {
+    font-family: "Source Sans Pro", sans-serif;
+    background-color: #699a00;
+    font-size: 16px;
+    font-weight: normal;
+    color: #fff;
+    border: none;
+    margin-top: 40px;
+}
+
+.header_login {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 15px;
+    color: white;
+}
+
+.section_card {
+    background-color: #1b1e2a;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.section_card h5 {
+    color: white;
+}
+
+.section_card p {
+    color: #b2c0c9;
+    line-height: 1.5em;
+}
+
+.section_card a {
+    font-size: small;
+    color: #b2c0c9;
+}
+
+.footer {
+    background-color: #1b1e2a;
+    color: #b2c0c9;
+}
+
+.footer-paragraph {
+    font-size: small;
+}
