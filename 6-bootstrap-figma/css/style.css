@@ -83,8 +83,8 @@ body {
 
 .bg-2 {
     background-color: white;
-    position: absolute;
-    margin-top: 110vh;
+    /* position: absolute;
+    margin-top: 110vh; */
 }
 
 .section2-text {
@@ -127,16 +127,18 @@ body {
     color: #006DFE;
 }
 
-.bg-2 {
+
+/* .bg-2 {
     background-color: white;
     position: absolute;
     margin-top: 110vh;
-}
+} */
 
-.bg-3 {
+
+/* .bg-3 {
     position: relative;
     margin-top: 70vh;
-}
+} */
 
 hr {
     width: 20% !important;
@@ -147,25 +149,26 @@ hr {
     .nav-list li {
         margin-left: 20px;
     }
-    .bg-3 {
+    /* .bg-3 {
         position: relative;
         margin-top: 150vh;
-    }
+    } */
 }
 
 @media only screen and (max-width: 1198px) {
-    .bg-3 {
+    /* .bg-3 {
         position: relative;
         margin-top: 150vh;
-    }
+    } */
 }
 
-@media only screen and (max-width: 367px) {
+
+/* @media only screen and (max-width: 367px) {
     .bg-3 {
         position: relative;
         margin-top: 170vh;
     }
-}
+} */
 
 @media only screen and (min-width: 240px) and (max-width: 466px) {
     .nav-list li {
@@ -183,4 +186,8 @@ hr {
         line-height: 42px;
         color: #102746;
     }
+    /* .bg-3 {
+        position: relative;
+        margin-top: 100vh;
+    } */
 }
