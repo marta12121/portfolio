@@ -1,0 +1,168 @@
+/* lato-regular - latin */
+
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''), url('../fonts/lato-v23-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/lato-v23-latin-regular.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+
+/* lato-700 - latin */
+
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''), url('../fonts/lato-v23-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/lato-v23-latin-700.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+
+/* lato-900 - latin */
+
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    src: local(''), url('../fonts/lato-v23-latin-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/lato-v23-latin-900.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.bg-1 {
+    height: 130vh;
+    background-image: url(../images/hero.png);
+    background-size: cover;
+}
+
+.nav-list {
+    color: white;
+}
+
+.nav-list li {
+    margin-left: 82px;
+}
+
+.text-header {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+
+.text-paragraph {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.header-inp {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #BFC0C5;
+    color: #FFFFFF;
+    outline: none;
+}
+
+.header-inp::placeholder {
+    color: #FFFFFF;
+}
+
+.bg-2 {
+    background-color: white;
+    position: absolute;
+    margin-top: 110vh;
+}
+
+.section2-text {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 42px;
+    color: #102746;
+}
+
+.container .card {
+    border: none;
+}
+
+.section2-text-h {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.section2-text-p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.btn-card {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #006DFE;
+}
+
+.bg-2 {
+    background-color: white;
+    position: absolute;
+    margin-top: 110vh;
+}
+
+.bg-3 {
+    position: relative;
+    margin-top: 70vh;
+}
+
+hr {
+    width: 20% !important;
+    border: 2px solid #006DFE;
+}
+
+@media only screen and (max-width: 780px) {
+    .nav-list li {
+        margin-left: 20px;
+    }
+    .bg-3 {
+        position: relative;
+        margin-top: 150vh;
+    }
+}
+
+@media only screen and (max-width: 1198px) {
+    .bg-3 {
+        position: relative;
+        margin-top: 150vh;
+    }
+}
+
+@media only screen and (max-width: 367px) {
+    .bg-3 {
+        position: relative;
+        margin-top: 160vh;
+    }
+}
