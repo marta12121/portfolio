@@ -166,3 +166,10 @@ hr {
         margin-top: 160vh;
     }
 }
+
+@media only screen and (min-width: 250px) and (max-width: 366px) {
+    .bg-3 {
+        position: relative;
+        margin-top: 180vh;
+    }
+}
