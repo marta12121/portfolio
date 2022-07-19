@@ -417,4 +417,7 @@ input {
         display: flex;
         flex-direction: column-reverse;
     }
+    .section-block-6 {
+        padding: 20px;
+    }
 }
