@@ -348,6 +348,10 @@ input {
         margin-top: -25px;
         z-index: 1;
     }
+    .new-flex {
+        display: flex;
+        flex-direction: column-reverse;
+    }
 }
 
 @media (min-width: 750px) {
@@ -405,6 +409,10 @@ input {
         width: 60%;
         margin-top: -30px;
         z-index: 1;
+    }
+    .new-flex {
+        display: flex;
+        flex-direction: column-reverse;
     }
 }
 
