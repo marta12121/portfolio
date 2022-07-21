@@ -35,10 +35,11 @@
 .card {
     border-radius: 7%;
     border: none;
+    box-shadow: 3px 3px 5px grey;
 }
 
 .card:hover {
-    box-shadow: 5px 5px 15px grey;
+    box-shadow: 15px 10px 10px grey;
 }
 
 @media screen and (max-width: 991px) {
