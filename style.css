@@ -33,7 +33,12 @@
 }
 
 .card {
-    border-radius: 15%;
+    border-radius: 7%;
+    border: none;
+}
+
+.card:hover {
+    box-shadow: 5px 5px 15px grey;
 }
 
 @media screen and (max-width: 991px) {
