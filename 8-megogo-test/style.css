@@ -226,15 +226,15 @@ nav>span:nth-child(3) {
     font-size: 15px;
     line-height: 20px;
     opacity: 0.8;
-    margin-top: 15px;
-    margin-bottom: 60px;
+    margin-top: 5%;
+    margin-bottom: 25%;
 }
 
 .section-film-photo {
     background-image: url(images/iphone.png);
     background-size: cover;
-    height: 65%;
-    width: 80%;
+    height: 60%;
+    width: 90%;
     position: relative;
     z-index: 1;
 }
@@ -242,7 +242,7 @@ nav>span:nth-child(3) {
 .section-present-photo {
     background-image: url(images/image.png);
     background-size: cover;
-    height: 45%;
+    height: 50%;
     width: 100%;
     position: relative;
     z-index: 1;
@@ -293,11 +293,11 @@ nav>span:nth-child(3) {
 }
 
 .text-dist {
-    margin-bottom: 10%;
+    margin-bottom: 20vh;
 }
 
 .text-dist2 {
-    margin-bottom: 35px;
+    margin-bottom: 10vh;
 }
 
 .section-sub_btn {
