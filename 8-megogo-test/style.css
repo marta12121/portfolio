@@ -132,6 +132,10 @@ table {
     border-spacing: 0;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'SF UI Display';
     font-style: normal;
@@ -289,7 +293,7 @@ nav>span:nth-child(3) {
 }
 
 .text-dist {
-    margin-bottom: 50px;
+    margin-bottom: 10%;
 }
 
 .text-dist2 {
