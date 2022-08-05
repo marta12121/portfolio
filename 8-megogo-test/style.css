@@ -1,0 +1,358 @@
+@import url(fonts/stylesheet.css);
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body {
+    font-family: 'SF UI Display';
+    font-style: normal;
+    color: #FFFFFF;
+    background-color: #000000;
+}
+
+.section-height {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page_header {
+    background-image: url('images/rectangle.png');
+    background-size: cover;
+    justify-content: center;
+}
+
+.page_content {
+    width: 75%;
+    position: relative;
+    z-index: 5;
+}
+
+nav {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+nav>span {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #FFFFFF;
+}
+
+nav>span:nth-child(2) {
+    position: absolute;
+    margin-top: 5px;
+    width: 100%;
+    height: 2px;
+    background-color: #FFFFFF;
+}
+
+nav>span:nth-child(3) {
+    position: absolute;
+    margin-top: 10px;
+    width: 100%;
+    height: 2px;
+    background-color: #FFFFFF;
+}
+
+.page_header_title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.page_header_text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    opacity: 0.8;
+    margin-top: 10px;
+}
+
+.section-film_title,
+.section-present_title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.section-film_text,
+.section-present_text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    opacity: 0.8;
+    margin-top: 15px;
+    margin-bottom: 60px;
+}
+
+.section-film-photo {
+    background-image: url(images/iphone.png);
+    background-size: cover;
+    height: 65%;
+    width: 80%;
+    position: relative;
+    z-index: 1;
+}
+
+.section-present-photo {
+    background-image: url(images/image.png);
+    background-size: cover;
+    height: 55%;
+    width: 95%;
+    position: relative;
+    z-index: 1;
+}
+
+.section-film {
+    justify-content: flex-end;
+}
+
+.section-present {
+    justify-content: center;
+}
+
+.section-film-photo:after,
+.section-present-photo:after,
+.section-sub:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+}
+
+.section-sub {
+    background-image: url(images/group2.png);
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    justify-content: center;
+    border: 8px solid #23C3B2;
+}
+
+.section-sub_text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+}
+
+.bw-section-sub_text {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 1px;
+}
+
+.text-dist {
+    margin-bottom: 80px;
+}
+
+.text-dist2 {
+    margin-bottom: 35px;
+}
+
+.section-sub_btn {
+    background: #23C3B2;
+    border-radius: 5px;
+    border: none;
+    width: 200px;
+    height: 55px;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 13px;
+    text-align: center;
+    letter-spacing: 1.3px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 16px;
+    margin-bottom: 10px;
+}
+
+.section-sub_title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43px;
+    margin-bottom: 10px;
+}
+
+.section-sub-prices {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.833333px;
+    text-transform: capitalize;
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 20px;
+}
+
+.section-sub-details {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 1.3px;
+    text-transform: uppercase;
+    color: #E5E5E5;
+}
+
+.table-item {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.table-item span {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+table td {
+    padding: 15px 15px 15px 2px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {}
