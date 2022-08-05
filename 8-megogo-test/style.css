@@ -249,6 +249,7 @@ nav>span:nth-child(3) {
 
 .section-film {
     justify-content: space-around;
+    background-color: #000000;
 }
 
 .section-present {
@@ -396,6 +397,15 @@ table td {
         height: 65%;
         width: 60%;
     }
+    .section-film-photo {
+        height: 60%;
+        width: 70%;
+    }
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {}
+@media only screen and (min-device-width: 420px) and (max-device-width: 480px) {
+    .section-present-photo {
+        height: 65%;
+        width: 100%;
+    }
+}
