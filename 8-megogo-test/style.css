@@ -140,7 +140,7 @@ body {
     font-family: 'SF UI Display';
     font-style: normal;
     color: #FFFFFF;
-    background-color: #000000;
+    background-color: #101010;
 }
 
 .section-height {
@@ -390,11 +390,11 @@ table td {
 
 @media only screen and (min-width: 321px) and (max-height: 390px) {
     .section-height {
-        height: 200vh;
+        height: 150vh;
     }
     .section-present-photo {
-        height: 25%;
-        width: 30%;
+        height: 65%;
+        width: 60%;
     }
 }
 
