@@ -392,6 +392,10 @@ table td {
     .section-height {
         height: 200vh;
     }
+    .section-present-photo {
+        height: 25%;
+        width: 30%;
+    }
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {}
