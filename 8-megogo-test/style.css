@@ -431,7 +431,7 @@ table td {
 
 @media only screen and (min-width:720px) and (max-height: 420px) {
     .section-present-photo {
-        height: 80%;
+        height: 75%;
         width: 60%;
     }
     .section-film-photo {
