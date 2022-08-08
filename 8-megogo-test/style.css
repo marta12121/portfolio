@@ -457,9 +457,16 @@
      }
  }
  
- @media only screen and (min-width: 359px) and (max-width: 380px) {
+ @media only screen and (min-width: 359px) and (max-width: 374px) {
      .section-present-photo {
          height: 40%;
+         width: 78%;
+     }
+ }
+ 
+ @media only screen and (min-width: 375px) and (max-width: 380px) {
+     .section-present-photo {
+         height: 45%;
          width: 78%;
      }
  }
