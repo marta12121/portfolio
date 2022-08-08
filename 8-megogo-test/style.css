@@ -450,7 +450,7 @@
      }
  }
  
- @media only screen and (min-width: 410px) and (max-width: 430px) {
+ @media only screen and (min-width: 319px) and (max-width: 358px) {
      .section-present-photo {
          height: 35%;
          width: 80%;
@@ -466,14 +466,21 @@
  
  @media only screen and (min-width: 381px) and (max-width: 400px) {
      .section-present-photo {
-         height: 40%;
-         width: 85%;
+         height: 35%;
+         width: 75%;
      }
  }
  
- @media only screen and (min-width: 319px) and (max-width: 358px) {
+ @media only screen and (min-width: 401px) and (max-width: 414px) {
      .section-present-photo {
          height: 35%;
-         width: 80%;
+         width: 75%;
+     }
+ }
+ 
+ @media only screen and (min-width: 415px) and (max-width: 430px) {
+     .section-present-photo {
+         height: 40%;
+         width: 65%;
      }
  }
