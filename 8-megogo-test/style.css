@@ -254,6 +254,7 @@
  
  .section-present {
      justify-content: center;
+     box-sizing: content-box;
  }
  
  .section-film-photo:after,
