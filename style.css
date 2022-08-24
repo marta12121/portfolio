@@ -148,13 +148,16 @@
 .fa-terminal::before,
 .fa-wordpress::before,
 .fa-code-fork::before {
-    font-size: 6rem;
-    /* color: white; */
+    font-size: 5rem;
+    color: white;
 }
 
 .skills-box {
+    background-color: #cdb6b4;
     display: grid;
-    grid-template-columns: repeat(5, 10rem);
+    grid-template-columns: repeat(6, 16.6%);
+    justify-items: center;
+    align-items: center;
 }
 
 @media screen and (max-width: 991px) {
