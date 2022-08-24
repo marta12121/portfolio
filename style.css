@@ -168,7 +168,7 @@
     background-color: #cdb6b4;
     display: grid;
     grid-template-columns: repeat(6, 11%);
-    grid-template-rows: repeat(3, 32%);
+    grid-template-rows: repeat(3, 31%);
     justify-items: center;
     align-items: center;
     justify-content: center;
