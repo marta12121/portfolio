@@ -58,6 +58,7 @@ p.header_text {
     font-family: "Source Sans Pro", sans-serif;
     font-size: 15px;
     color: white;
+    margin-top: 40px;
 }
 
 .section_card {
