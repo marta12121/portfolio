@@ -142,6 +142,21 @@
     font-weight: 400;
 }
 
+.fa-html5::before,
+.fa-css3::before,
+.fa-github::before,
+.fa-terminal::before,
+.fa-wordpress::before,
+.fa-code-fork::before {
+    font-size: 6rem;
+    /* color: white; */
+}
+
+.skills-box {
+    display: grid;
+    grid-template-columns: repeat(5, 10rem);
+}
+
 @media screen and (max-width: 991px) {
     .avatar {
         width: 200px;
