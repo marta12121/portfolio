@@ -150,7 +150,9 @@
 .fa-code-fork::before,
 .fa-js::before,
 .fa-sass::before,
-.fa-laptop::before {
+.fa-laptop::before,
+.fa-bootstrap::before,
+.fa-figma::before {
     font-size: 5rem;
     color: white;
 }
@@ -166,6 +168,7 @@
     background-color: #cdb6b4;
     display: grid;
     grid-template-columns: repeat(6, 11%);
+    grid-template-rows: repeat(3, 32%);
     justify-items: center;
     align-items: center;
     justify-content: center;
@@ -189,7 +192,9 @@
     .fa-code-fork::before,
     .fa-js::before,
     .fa-sass::before,
-    .fa-laptop::before {
+    .fa-laptop::before,
+    .fa-bootstrap::before,
+    .fa-figma::before {
         font-size: 3rem;
         color: white;
     }
@@ -204,14 +209,15 @@
         display: grid;
         gap: 4%;
         grid-template-columns: repeat(4, 20%);
+        grid-template-rows: repeat(4, 22%);
     }
 }
 
 @media screen and (max-width: 450px) {
     .skills-box {
         display: grid;
-        gap: 5%;
+        gap: 4%;
         grid-template-columns: repeat(3, 25%);
-        grid-template-rows: repeat(4, 22%);
+        grid-template-rows: repeat(5, 17%);
     }
 }
