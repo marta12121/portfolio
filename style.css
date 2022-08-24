@@ -46,8 +46,12 @@
     background: linear-gradient(143.15deg, rgba(97, 0, 255, 0.5) 8.37%, rgba(0, 255, 255, 0.4) 94.49%);
 } */
 
+.card-title-main,
+.card_h5 {
+    font-weight: 800;
+}
+
 .card-each {
-    background-image: url(pictures/1.png);
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -56,9 +60,44 @@
     border-radius: 25px;
 }
 
+.each1 {
+    background-image: url(pictures/img1.png);
+}
+
+.each2 {
+    background-image: url(pictures/img2.png);
+}
+
+.each3 {
+    background-image: url(pictures/img3.png);
+}
+
+.each4 {
+    background-image: url(pictures/img4.png);
+}
+
+.each5 {
+    background-image: url(pictures/img5.png);
+}
+
+.each6 {
+    background-image: url(pictures/img6.png);
+}
+
+.each7 {
+    background-image: url(pictures/img7.png);
+}
+
+.each8 {
+    background-image: url(pictures/img8.png);
+}
+
+.each9 {
+    background-image: url();
+}
+
 .card:hover {
     box-shadow: 15px 10px 10px grey;
-    opacity: 0.95;
     transition: all .2s ease-in-out;
     -webkit-transition: all .2s ease-in-out;
 }
@@ -66,7 +105,9 @@
 .card-each:hover {
     padding: 0.7rem;
     border-radius: 25px;
-    background: linear-gradient(143.15deg, rgba(97, 0, 255, 0.5) 8.37%, rgba(0, 255, 255, 0.4) 94.49%);
+    background-color: #f6f5eb;
+    background-image: linear-gradient(62deg, #f6f5eb 0%, #ece0bc 33%, #eadbc6 66%, #cdb6b4 100%);
+    /* background: linear-gradient(143.15deg, rgba(97, 0, 255, 0.3) 8.37%, rgba(0, 255, 255, 0.2) 94.49%); */
 }
 
 .card-each:hover .card_h5,
@@ -88,14 +129,14 @@
 .styled-btn {
     background-color: transparent;
     border-width: 2px;
-    padding: 0.5rem;
+    padding: 0.7rem;
     font-weight: 400;
     font-size: 18px;
     border-radius: 9999px;
 }
 
 .styled-btn:hover {
-    border-color: #6E07F3;
+    border-color: #988686;
     transition: all .2s ease-in-out;
     -webkit-transition: all .2s ease-in-out;
     font-weight: 400;
