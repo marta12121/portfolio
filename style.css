@@ -93,7 +93,7 @@
 }
 
 .each9 {
-    background-image: url();
+    background-image: url(pictures/img10.png);
 }
 
 .card:hover {
@@ -105,9 +105,8 @@
 .card-each:hover {
     padding: 0.7rem;
     border-radius: 25px;
-    background-color: #f6f5eb;
-    background-image: linear-gradient(62deg, #f6f5eb 0%, #ece0bc 33%, #eadbc6 66%, #cdb6b4 100%);
-    /* background: linear-gradient(143.15deg, rgba(97, 0, 255, 0.3) 8.37%, rgba(0, 255, 255, 0.2) 94.49%); */
+    background: rgb(230, 227, 212);
+    background: linear-gradient(60deg, rgba(230, 227, 212, 0.3688068977591037) 0%, rgba(235, 225, 201, 0.33) 35%, rgba(231, 219, 203, 0.66) 70%, rgba(230, 198, 194, 0.9710477941176471) 100%);
 }
 
 .card-each:hover .card_h5,
