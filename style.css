@@ -96,6 +96,10 @@
     background-image: url(pictures/img10.png);
 }
 
+.each10 {
+    background-image: url(https://marta12121.github.io/cursor_tasks/HW_12/img/background.jpeg);
+}
+
 .card:hover {
     box-shadow: 15px 10px 10px grey;
     transition: all .2s ease-in-out;
